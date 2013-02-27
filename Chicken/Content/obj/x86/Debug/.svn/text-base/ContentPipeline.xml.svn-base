@@ -1,0 +1,1545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Graphics="Microsoft.Xna.Framework.Graphics" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Models\characterTemp.fbx</Source>
+      <Name>Models\characterTemp</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\characterTemp.xnb</Output>
+      <Time>2010-03-03T11:30:45.3394-08:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\characterTemp_0.xml</Key>
+        <Value>2010-05-19T14:29:03.2356-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\simpleRooster.FBX</Source>
+      <Name>Models\simpleRooster</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\simpleRooster.xnb</Output>
+      <Time>2010-03-03T11:30:45.4798-08:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\simpleRooster_0.xml</Key>
+        <Value>2010-05-19T14:29:03.6568-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\rooster_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\simpleBrownChicken.FBX</Source>
+      <Name>Models\simpleBrownChicken</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\simpleBrownChicken.xnb</Output>
+      <Time>2010-05-05T12:57:23.1720518-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\simpleBrownChicken_0.xml</Key>
+        <Value>2010-05-19T14:29:05.2012-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\6F422E55\simpleBrownChicken.fbm\chickenR_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\foxModel.FBX</Source>
+      <Name>Models\foxModel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\foxModel.xnb</Output>
+      <Time>2010-03-10T14:59:02.321-08:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\foxModel_0.xml</Key>
+        <Value>2010-05-19T14:29:07.6348-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\AFE62A2C\foxModel.fbm\foxTexture2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\whiteEggModel.FBX</Source>
+      <Name>Models\whiteEggModel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\whiteEggModel.xnb</Output>
+      <Time>2010-03-24T11:09:37.77-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\whiteEggModel_0.xml</Key>
+        <Value>2010-05-19T14:29:08.1808-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\89CE2C33\whiteEggModel.fbm\whiteEggTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\brokenEggModel.FBX</Source>
+      <Name>Models\brokenEggModel</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\brokenEggModel.xnb</Output>
+      <Time>2010-03-24T15:40:33.884-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\brokenEggModel_0.xml</Key>
+        <Value>2010-05-19T14:29:08.7112-07:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\farmBoy[2]withBasketnoBones.FBX</Source>
+      <Name>Models\farmBoy[2]withBasketnoBones</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\farmBoy[2]withBasketnoBones.xnb</Output>
+      <Time>2010-04-14T14:56:02.6028222-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\farmBoy[2]withBasketnoBones_0.xml</Key>
+        <Value>2010-05-19T14:29:09.4288-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\strawTexture_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\blueTexture_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\boyFaceT[2]_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\whiteTexture_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\brownHairTexture_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\skinTexture[2]_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\BrownLeatherTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\rooster[1]Basic.FBX</Source>
+      <Name>Models\rooster[1]Basic</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\rooster[1]Basic.xnb</Output>
+      <Time>2010-04-16T11:35:37.7688228-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\rooster[1]Basic_0.xml</Key>
+        <Value>2010-05-19T14:29:13.4848-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\E1C92CC7\rooster[1]Basic.fbm\roosterFootSkin_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\E1C92CC7\rooster[1]Basic.fbm\roosterGobble_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\E1C92CC7\rooster[1]Basic.fbm\roosterTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\brokenEggT.FBX</Source>
+      <Name>Models\brokenEggT</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\brokenEggT.xnb</Output>
+      <Time>2010-05-05T12:57:23.1876518-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\brokenEggT_0.xml</Key>
+        <Value>2010-05-19T14:29:15.8248-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\55F2AF6\brokenEggT.fbm\eggYolk_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\55F2AF6\brokenEggT.fbm\eggWhites_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\eggShadow.FBX</Source>
+      <Name>Models\eggShadow</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\eggShadow.xnb</Output>
+      <Time>2010-05-05T12:57:23.0160518-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\eggShadow_0.xml</Key>
+        <Value>2010-05-19T14:29:16.5424-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\D9BF2A87\eggShadow.fbm\blacktranspanel_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\rubberBootSet.FBX</Source>
+      <Name>Models\rubberBootSet</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\rubberBootSet.xnb</Output>
+      <Time>2010-05-05T15:45:54-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\rubberBootSet_0.xml</Key>
+        <Value>2010-05-19T14:29:17.3068-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\8A642C50\rubberBootSet.fbm\eggYolk_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\farmGirl[1].FBX</Source>
+      <Name>Models\farmGirl[1]</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\farmGirl[1].xnb</Output>
+      <Time>2010-05-10T18:43:06.0698424-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\farmGirl[1]_0.xml</Key>
+        <Value>2010-05-19T14:29:18.7576-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\strawTexture_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\Coja-Leather-ANI_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\girlFace[1]_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\whiteTexture_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\roosterGobble_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\skinTexture[2]_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\shirtTextureRedBlue_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\goldHairTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\farmScene[8].FBX</Source>
+      <Name>Models\farmScene[8]</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\farmScene[8].xnb</Output>
+      <Time>2010-05-09T23:42:48.759-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\farmScene[8]_0.xml</Key>
+        <Value>2010-05-19T14:29:31.6588-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\barnModelTexture_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\blackRoof_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\grazingTexture_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\whitefenceposts_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\1\whitefenceposts_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\hickory_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\barnSidesTexture_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\grain_bin_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\1\grain_bin_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\grass_0.xnb</Request>
+      <Request>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\grassdirttexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>MenuImages\menuBackgroundBlack.jpg</Source>
+      <Name>MenuImages\menuBackgroundBlack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\menuBackgroundBlack.xnb</Output>
+      <Time>2010-03-03T11:31:09.4882-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\MenuBackgroundDemo copy.png</Source>
+      <Name>MenuImages\MenuBackgroundDemo copy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\MenuBackgroundDemo copy.xnb</Output>
+      <Time>2010-03-03T11:31:09.5038-08:00</Time>
+    </Item>
+    <Item>
+      <Source>disabledGrey.png</Source>
+      <Name>disabledGrey</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\disabledGrey.xnb</Output>
+      <Time>2010-03-03T11:35:17.8714-08:00</Time>
+    </Item>
+    <Item>
+      <Source>mouseHand.png</Source>
+      <Name>mouseHand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\mouseHand.xnb</Output>
+      <Time>2010-03-03T11:35:17.887-08:00</Time>
+    </Item>
+    <Item>
+      <Source>mouseHand2.png</Source>
+      <Name>mouseHand2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\mouseHand2.xnb</Output>
+      <Time>2010-03-03T11:35:17.887-08:00</Time>
+    </Item>
+    <Item>
+      <Source>mouseHand3.png</Source>
+      <Name>mouseHand3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\mouseHand3.xnb</Output>
+      <Time>2010-03-03T11:35:17.9026-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\blacktranspanel.png</Source>
+      <Name>MenuImages\blacktranspanel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\blacktranspanel.xnb</Output>
+      <Time>2010-05-05T12:57:34.0608518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\defaultbarnimage.png</Source>
+      <Name>MenuImages\defaultbarnimage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\defaultbarnimage.xnb</Output>
+      <Time>2010-03-03T12:36:05.5124-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\barnSidewithGlow .png</Source>
+      <Name>MenuImages\barnSidewithGlow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\barnSidewithGlow.xnb</Output>
+      <Time>2010-03-03T12:21:08.4182-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\blankButtonDarkGlow .png</Source>
+      <Name>MenuImages\blankButtonDarkGlow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\blankButtonDarkGlow.xnb</Output>
+      <Time>2010-03-03T12:21:08.4338-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\blankbuttonGlow .png</Source>
+      <Name>MenuImages\blankbuttonGlow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\blankbuttonGlow.xnb</Output>
+      <Time>2010-03-03T12:21:08.231-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\menuBackgroundTransTest5 copy.png</Source>
+      <Name>MenuImages\menuBackgroundTransTest5 copy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\menuBackgroundTransTest5 copy.xnb</Output>
+      <Time>2010-03-03T12:21:08.2466-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell0.png</Source>
+      <Name>MenuImages\titleSpell0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell0.xnb</Output>
+      <Time>2010-03-03T12:21:08.2622-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell1.png</Source>
+      <Name>MenuImages\titleSpell1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell1.xnb</Output>
+      <Time>2010-03-03T12:21:08.2778-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell10.png</Source>
+      <Name>MenuImages\titleSpell10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell10.xnb</Output>
+      <Time>2010-03-03T12:21:08.4338-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell11.png</Source>
+      <Name>MenuImages\titleSpell11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell11.xnb</Output>
+      <Time>2010-03-03T12:21:08.4494-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell12.png</Source>
+      <Name>MenuImages\titleSpell12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell12.xnb</Output>
+      <Time>2010-03-03T12:21:08.465-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell13.png</Source>
+      <Name>MenuImages\titleSpell13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell13.xnb</Output>
+      <Time>2010-03-03T12:21:08.465-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell2.png</Source>
+      <Name>MenuImages\titleSpell2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell2.xnb</Output>
+      <Time>2010-03-03T12:21:08.2934-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell3.png</Source>
+      <Name>MenuImages\titleSpell3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell3.xnb</Output>
+      <Time>2010-03-03T12:21:08.3246-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell4.png</Source>
+      <Name>MenuImages\titleSpell4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell4.xnb</Output>
+      <Time>2010-03-03T12:21:08.3402-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell5.png</Source>
+      <Name>MenuImages\titleSpell5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell5.xnb</Output>
+      <Time>2010-03-03T12:21:08.3714-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell6.png</Source>
+      <Name>MenuImages\titleSpell6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell6.xnb</Output>
+      <Time>2010-03-03T12:21:08.3714-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell7.png</Source>
+      <Name>MenuImages\titleSpell7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell7.xnb</Output>
+      <Time>2010-03-03T12:21:08.387-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell8.png</Source>
+      <Name>MenuImages\titleSpell8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell8.xnb</Output>
+      <Time>2010-03-03T12:21:08.4026-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleSpell9.png</Source>
+      <Name>MenuImages\titleSpell9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleSpell9.xnb</Output>
+      <Time>2010-03-03T12:21:08.4182-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleTextBig.png</Source>
+      <Name>MenuImages\titleTextBig</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleTextBig.xnb</Output>
+      <Time>2010-03-03T12:21:08.4026-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleTextSmall.png</Source>
+      <Name>MenuImages\titleTextSmall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleTextSmall.xnb</Output>
+      <Time>2010-03-03T12:21:08.231-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\titleText .png</Source>
+      <Name>MenuImages\titleText</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\titleText.xnb</Output>
+      <Time>2010-03-03T12:21:08.2466-08:00</Time>
+    </Item>
+    <Item>
+      <Source>mouseHand4.png</Source>
+      <Name>mouseHand4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\mouseHand4.xnb</Output>
+      <Time>2010-03-03T12:21:09.167-08:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\menuPanelTrans85.png</Source>
+      <Name>MenuImages\menuPanelTrans85</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\menuPanelTrans85.xnb</Output>
+      <Time>2010-05-05T12:57:34.2168518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\chickenCoopMenuPoster.png</Source>
+      <Name>MenuImages\chickenCoopMenuPoster</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\chickenCoopMenuPoster.xnb</Output>
+      <Time>2010-05-05T12:57:34.0764518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\darkMenuPaneltrans50.png</Source>
+      <Name>MenuImages\darkMenuPaneltrans50</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\darkMenuPaneltrans50.xnb</Output>
+      <Time>2010-05-05T12:57:34.2168518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\chickenImage.png</Source>
+      <Name>MenuImages\chickenImage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\chickenImage.xnb</Output>
+      <Time>2010-05-05T12:57:34.0764518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\eggImage.png</Source>
+      <Name>MenuImages\eggImage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\eggImage.xnb</Output>
+      <Time>2010-05-05T12:57:34.0608518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\farmerBoyImage.png</Source>
+      <Name>MenuImages\farmerBoyImage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\farmerBoyImage.xnb</Output>
+      <Time>2010-05-05T12:57:34.2324518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\RoosterImage.png</Source>
+      <Name>MenuImages\RoosterImage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\RoosterImage.xnb</Output>
+      <Time>2010-05-05T12:57:34.2012518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\dollarSignImage.png</Source>
+      <Name>MenuImages\dollarSignImage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\dollarSignImage.xnb</Output>
+      <Time>2010-05-05T12:57:34.2168518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\goalImage.png</Source>
+      <Name>MenuImages\goalImage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\goalImage.xnb</Output>
+      <Time>2010-05-05T12:57:34.1232518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\tempSun.png</Source>
+      <Name>MenuImages\tempSun</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\tempSun.xnb</Output>
+      <Time>2010-05-05T12:57:34.1544518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\checkbox.png</Source>
+      <Name>MenuImages\checkbox</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\checkbox.xnb</Output>
+      <Time>2010-05-10T18:43:12.7934424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\checkbox2.png</Source>
+      <Name>MenuImages\checkbox2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\checkbox2.xnb</Output>
+      <Time>2010-05-10T18:43:12.7622424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\M_audiotitle.png</Source>
+      <Name>MenuImages\M_audiotitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\M_audiotitle.xnb</Output>
+      <Time>2010-05-10T18:43:12.7622424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\M_characterselectiontitle.png</Source>
+      <Name>MenuImages\M_characterselectiontitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\M_characterselectiontitle.xnb</Output>
+      <Time>2010-05-10T18:43:12.7778424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\M_gamemodetitle.png</Source>
+      <Name>MenuImages\M_gamemodetitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\M_gamemodetitle.xnb</Output>
+      <Time>2010-05-10T18:43:12.7466424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\M_musicoptionstitle.png</Source>
+      <Name>MenuImages\M_musicoptionstitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\M_musicoptionstitle.xnb</Output>
+      <Time>2010-05-10T18:43:12.7622424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\M_newGameMenuTitle.png</Source>
+      <Name>MenuImages\M_newGameMenuTitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\M_newGameMenuTitle.xnb</Output>
+      <Time>2010-05-10T18:43:12.7778424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\M_optionsmenutitle.png</Source>
+      <Name>MenuImages\M_optionsmenutitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\M_optionsmenutitle.xnb</Output>
+      <Time>2010-05-10T18:43:12.7778424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\M_screenmodetitle.png</Source>
+      <Name>MenuImages\M_screenmodetitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\M_screenmodetitle.xnb</Output>
+      <Time>2010-05-10T18:43:12.7934424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\splashScreen[3].png</Source>
+      <Name>MenuImages\splashScreen[3]</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\splashScreen[3].xnb</Output>
+      <Time>2010-05-10T18:43:12.7466424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\sunIcon.png</Source>
+      <Name>MenuImages\sunIcon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\sunIcon.xnb</Output>
+      <Time>2010-05-12T17:46:34.4526-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\triangleIcon.png</Source>
+      <Name>MenuImages\triangleIcon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\triangleIcon.xnb</Output>
+      <Time>2010-05-17T15:27:07.993-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\splashScreen.png</Source>
+      <Name>MenuImages\splashScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\splashScreen.xnb</Output>
+      <Time>2010-05-17T15:27:07.97-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\arrowLeft.png</Source>
+      <Name>MenuImages\arrowLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\arrowLeft.xnb</Output>
+      <Time>2010-05-17T15:27:07.986-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\arrowLeftDown.png</Source>
+      <Name>MenuImages\arrowLeftDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\arrowLeftDown.xnb</Output>
+      <Time>2010-05-17T15:27:07.96-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\arrowRight.png</Source>
+      <Name>MenuImages\arrowRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\arrowRight.xnb</Output>
+      <Time>2010-05-17T15:27:07.979-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MenuImages\arrowRightDown.png</Source>
+      <Name>MenuImages\arrowRightDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\MenuImages\arrowRightDown.xnb</Output>
+      <Time>2010-05-17T15:27:08-07:00</Time>
+    </Item>
+    <Item>
+      <Source>UIFont.spritefont</Source>
+      <Name>UIFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\UIFont.xnb</Output>
+      <Time>2010-03-03T11:35:17.8714-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\XyloNote.wav</Source>
+      <Name>Audio\XyloNote</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\XyloNote.xnb</Output>
+      <Time>2010-05-12T11:03:10.7208-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\backgroundchickencluck.wav</Source>
+      <Name>Audio\backgroundchickencluck</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\backgroundchickencluck.xnb</Output>
+      <Time>2010-05-11T10:15:16.106-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\backgroundMelodySimple[2].wav</Source>
+      <Name>Audio\backgroundMelodySimple[2]</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\backgroundMelodySimple[2].xnb</Output>
+      <Time>2010-05-11T10:15:16.202-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\backgroundMelodySimple[3]chirps.wav</Source>
+      <Name>Audio\backgroundMelodySimple[3]chirps</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\backgroundMelodySimple[3]chirps.xnb</Output>
+      <Time>2010-05-11T10:15:16.13-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\eggSlipSound.wav</Source>
+      <Name>Audio\eggSlipSound</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\eggSlipSound.xnb</Output>
+      <Time>2010-05-12T11:03:10.7052-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\foxWarning.wav</Source>
+      <Name>Audio\foxWarning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\foxWarning.xnb</Output>
+      <Time>2010-05-12T11:03:10.7364-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\roosterCrow.wav</Source>
+      <Name>Audio\roosterCrow</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\roosterCrow.xnb</Output>
+      <Time>2010-05-12T11:03:10.7052-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\roosterWarning.wav</Source>
+      <Name>Audio\roosterWarning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\roosterWarning.xnb</Output>
+      <Time>2010-05-11T10:15:16.094-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\shortchickencluck.wav</Source>
+      <Name>Audio\shortchickencluck</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\shortchickencluck.xnb</Output>
+      <Time>2010-05-11T10:15:16.166-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\softChickenCluck.wav</Source>
+      <Name>Audio\softChickenCluck</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\softChickenCluck.xnb</Output>
+      <Time>2010-05-11T10:15:16.225-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Gong_1.wav</Source>
+      <Name>Audio\Gong_1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\Gong_1.xnb</Output>
+      <Time>2010-05-12T11:03:10.7208-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\crickets_2.wav</Source>
+      <Name>Audio\crickets_2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\crickets_2.xnb</Output>
+      <Time>2010-05-11T10:15:16.148-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\buttonPush.wav</Source>
+      <Name>Audio\buttonPush</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\buttonPush.xnb</Output>
+      <Time>2010-05-12T11:03:10.7208-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\eggCrack_2.wav</Source>
+      <Name>Audio\eggCrack_2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Audio\eggCrack_2.xnb</Output>
+      <Time>2010-05-11T10:15:16.142-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\characterTemp.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\characterTemp_0.xml</Output>
+      <Time>2010-03-03T11:30:45.3394-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\simpleRooster.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\simpleRooster_0.xml</Output>
+      <Time>2010-03-03T11:30:45.4798-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\rooster.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\Models\rooster_0.xnb</Output>
+      <Time>2010-03-03T11:30:45.4798-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\simpleBrownChicken.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\simpleBrownChicken_0.xml</Output>
+      <Time>2010-05-05T12:57:23.1720518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\6F422E55\simpleBrownChicken.fbm\chickenR.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\6F422E55\simpleBrownChicken.fbm\chickenR_0.xnb</Output>
+      <Time>2010-05-19T14:29:04.936-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\foxModel.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\foxModel_0.xml</Output>
+      <Time>2010-03-10T14:59:02.321-08:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\AFE62A2C\foxModel.fbm\foxTexture2.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\AFE62A2C\foxModel.fbm\foxTexture2_0.xnb</Output>
+      <Time>2010-05-19T14:29:07.4632-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\whiteEggModel.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\whiteEggModel_0.xml</Output>
+      <Time>2010-03-24T11:09:37.77-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\89CE2C33\whiteEggModel.fbm\whiteEggTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\89CE2C33\whiteEggModel.fbm\whiteEggTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:08.1496-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\brokenEggModel.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\brokenEggModel_0.xml</Output>
+      <Time>2010-03-24T15:40:33.884-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\farmBoy[2]withBasketnoBones.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\farmBoy[2]withBasketnoBones_0.xml</Output>
+      <Time>2010-04-14T14:56:02.6028222-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\strawTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\strawTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:08.836-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\blueTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\blueTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:08.8516-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\boyFaceT[2].png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\boyFaceT[2]_0.xnb</Output>
+      <Time>2010-05-19T14:29:08.8672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\whiteTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\whiteTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:08.8672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\brownHairTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\brownHairTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:08.8672-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\skinTexture[2].png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\skinTexture[2]_0.xnb</Output>
+      <Time>2010-05-19T14:29:08.8828-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\BrownLeatherTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\1DB731D2\farmBoy[2]withBasketnoBones.fbm\BrownLeatherTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:08.8828-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\rooster[1]Basic.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\rooster[1]Basic_0.xml</Output>
+      <Time>2010-04-16T11:35:37.7688228-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\E1C92CC7\rooster[1]Basic.fbm\roosterFootSkin.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\E1C92CC7\rooster[1]Basic.fbm\roosterFootSkin_0.xnb</Output>
+      <Time>2010-05-19T14:29:13.1884-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\E1C92CC7\rooster[1]Basic.fbm\roosterGobble.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\E1C92CC7\rooster[1]Basic.fbm\roosterGobble_0.xnb</Output>
+      <Time>2010-05-19T14:29:13.1884-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\E1C92CC7\rooster[1]Basic.fbm\roosterTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\E1C92CC7\rooster[1]Basic.fbm\roosterTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:13.2976-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\brokenEggT.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\brokenEggT_0.xml</Output>
+      <Time>2010-05-05T12:57:23.1876518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\55F2AF6\brokenEggT.fbm\eggYolk.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\55F2AF6\brokenEggT.fbm\eggYolk_0.xnb</Output>
+      <Time>2010-05-19T14:29:15.7936-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\55F2AF6\brokenEggT.fbm\eggWhites.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\55F2AF6\brokenEggT.fbm\eggWhites_0.xnb</Output>
+      <Time>2010-05-19T14:29:15.7936-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\eggShadow.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\eggShadow_0.xml</Output>
+      <Time>2010-05-05T12:57:23.0160518-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\D9BF2A87\eggShadow.fbm\blacktranspanel.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\D9BF2A87\eggShadow.fbm\blacktranspanel_0.xnb</Output>
+      <Time>2010-05-19T14:29:16.5268-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\rubberBootSet.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\rubberBootSet_0.xml</Output>
+      <Time>2010-05-05T15:45:54-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\8A642C50\rubberBootSet.fbm\eggYolk.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\8A642C50\rubberBootSet.fbm\eggYolk_0.xnb</Output>
+      <Time>2010-05-19T14:29:16.9948-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\farmGirl[1].FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\farmGirl[1]_0.xml</Output>
+      <Time>2010-05-10T18:43:06.0698424-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\2EE02B0B\farmGirl[1].fbm\strawTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\strawTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:17.9776-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\2EE02B0B\farmGirl[1].fbm\Coja-Leather-ANI.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\Coja-Leather-ANI_0.xnb</Output>
+      <Time>2010-05-19T14:29:17.9776-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\2EE02B0B\farmGirl[1].fbm\girlFace[1].png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\girlFace[1]_0.xnb</Output>
+      <Time>2010-05-19T14:29:17.9932-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\2EE02B0B\farmGirl[1].fbm\whiteTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\whiteTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:17.9932-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\2EE02B0B\farmGirl[1].fbm\roosterGobble.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\roosterGobble_0.xnb</Output>
+      <Time>2010-05-19T14:29:17.9932-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\2EE02B0B\farmGirl[1].fbm\skinTexture[2].png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\skinTexture[2]_0.xnb</Output>
+      <Time>2010-05-19T14:29:18.0088-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\2EE02B0B\farmGirl[1].fbm\shirtTextureRedBlue.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\shirtTextureRedBlue_0.xnb</Output>
+      <Time>2010-05-19T14:29:18.0088-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\2EE02B0B\farmGirl[1].fbm\goldHairTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\2EE02B0B\farmGirl[1].fbm\goldHairTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:18.0088-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\farmScene[8].FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\farmScene[8]_0.xml</Output>
+      <Time>2010-05-09T23:42:48.759-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\5AC42B72\farmScene[8].fbm\barnModelTexture.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\barnModelTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:26.4016-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\5AC42B72\farmScene[8].fbm\blackRoof.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\blackRoof_0.xnb</Output>
+      <Time>2010-05-19T14:29:26.4172-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\5AC42B72\farmScene[8].fbm\grazingTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\grazingTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:26.4796-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\5AC42B72\farmScene[8].fbm\whitefenceposts.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\whitefenceposts_0.xnb</Output>
+      <Time>2010-05-19T14:29:26.4952-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\5AC42B72\farmScene[8].fbm\1\whitefenceposts.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\1\whitefenceposts_0.xnb</Output>
+      <Time>2010-05-19T14:29:26.4952-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\5AC42B72\farmScene[8].fbm\hickory.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\hickory_0.xnb</Output>
+      <Time>2010-05-19T14:29:26.5108-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\5AC42B72\farmScene[8].fbm\barnSidesTexture.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\barnSidesTexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:26.5264-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\5AC42B72\farmScene[8].fbm\grain_bin.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\grain_bin_0.xnb</Output>
+      <Time>2010-05-19T14:29:26.5888-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\5AC42B72\farmScene[8].fbm\1\grain_bin.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\1\grain_bin_0.xnb</Output>
+      <Time>2010-05-19T14:29:26.6044-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\5AC42B72\farmScene[8].fbm\grass.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\grass_0.xnb</Output>
+      <Time>2010-05-19T14:29:26.6044-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\5AC42B72\farmScene[8].fbm\grassdirttexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\FBX\5AC42B72\farmScene[8].fbm\grassdirttexture_0.xnb</Output>
+      <Time>2010-05-19T14:29:26.7292-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Erik\Documents\GSP--Senior Project\ChickenRanch\GApplication\Chicken\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T01:16:14-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T01:16:06-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T01:16:16-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T01:16:26-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T01:16:12-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T01:16:06-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2009-11-24T10:46:22.8398504-08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

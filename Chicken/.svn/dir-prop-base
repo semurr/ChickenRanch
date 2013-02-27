@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 37
+Content
+_UpgradeReport_Files
+bin
+obj
+
+END

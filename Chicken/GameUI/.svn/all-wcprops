@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/vlind/seniorproject/svn/!svn/ver/255/GApplication/Chicken/GameUI
+END
+creditsScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/vlind/seniorproject/svn/!svn/ver/248/GApplication/Chicken/GameUI/creditsScreen.cs
+END
+optionsMenuScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/vlind/seniorproject/svn/!svn/ver/234/GApplication/Chicken/GameUI/optionsMenuScreen.cs
+END
+VictoryLossScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/vlind/seniorproject/svn/!svn/ver/234/GApplication/Chicken/GameUI/VictoryLossScreen.cs
+END
+gameWorld.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/vlind/seniorproject/svn/!svn/ver/255/GApplication/Chicken/GameUI/gameWorld.cs
+END
+startMenuScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/vlind/seniorproject/svn/!svn/ver/234/GApplication/Chicken/GameUI/startMenuScreen.cs
+END
+EndDaySummary.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/vlind/seniorproject/svn/!svn/ver/244/GApplication/Chicken/GameUI/EndDaySummary.cs
+END
+tutorialScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/vlind/seniorproject/svn/!svn/ver/246/GApplication/Chicken/GameUI/tutorialScreen.cs
+END
+inGameMenu.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/vlind/seniorproject/svn/!svn/ver/233/GApplication/Chicken/GameUI/inGameMenu.cs
+END
+sunPanel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/vlind/seniorproject/svn/!svn/ver/141/GApplication/Chicken/GameUI/sunPanel.cs
+END
+NewGameMenu.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/vlind/seniorproject/svn/!svn/ver/254/GApplication/Chicken/GameUI/NewGameMenu.cs
+END
+helpScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/vlind/seniorproject/svn/!svn/ver/233/GApplication/Chicken/GameUI/helpScreen.cs
+END
+gameInterface.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/vlind/seniorproject/svn/!svn/ver/255/GApplication/Chicken/GameUI/gameInterface.cs
+END
+splashScreen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/vlind/seniorproject/svn/!svn/ver/234/GApplication/Chicken/GameUI/splashScreen.cs
+END
